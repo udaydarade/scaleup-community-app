@@ -93,6 +93,20 @@ npm install
 ```bash
 expo start
 ```
+### Additional Dependencies
+
+This project uses **React Navigation** for screen routing. Make sure the following packages are installed:
+
+```bash
+# Core navigation
+npm install @react-navigation/native
+
+# Bottom tabs and stack navigator
+npm install @react-navigation/bottom-tabs @react-navigation/native-stack
+
+# Expo dependencies required for React Navigation
+expo install react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated react-native-vector-icons
+
 
 **4️⃣ Run the app**
 - Scan the QR code with Expo Go app on your phone
